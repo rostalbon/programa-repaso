@@ -5,4 +5,4 @@ class Hospital:
         self.__nombre = nombre
         self.__direccion = direccion
         self.__cant_consultorios = cant_consultorios
-        self.__consultorio = Consultorio(numero)
+        self.__consultorio = Consultorio(numero) #Composición
